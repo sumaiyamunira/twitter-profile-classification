@@ -1,9 +1,9 @@
 # Twitter Data Analysis - Gender Classification and Profile Analysis
 
 ## Overview
-This project performs a comprehensive analysis of Twitter user data, primarily focusing on identifying gender classifications (human vs. brand profiles) based on various features from user profiles. It utilizes natural language processing (NLP) techniques, sentiment analysis, text preprocessing, and machine learning models to classify Twitter profiles. This is achieved by analyzing the user's description, profile image, and other metadata to predict whether a profile represents a human or a brand.
+This project performs a comprehensive analysis of Twitter user data, primarily focusing on identifying gender classifications (human vs. brand profiles) based on various features from user profiles. It utilizes natural language processing (NLP) techniques, sentiment analysis, text preprocessing and machine learning models to classify Twitter profiles. This is achieved by analyzing the user's description, profile image and other metadata to predict whether a profile represents a human or a brand.
 
-The dataset used for this analysis is **twitter_user_data.csv**, which contains **20,050 rows** of data, including user information such as profile descriptions, tweet counts, and follower counts.
+The dataset used for this analysis is **twitter_user_data.csv**, which contains **20,050 rows** of data, including user information such as profile descriptions, tweet counts and follower counts.
 
 ## Key Features
 
@@ -39,7 +39,7 @@ The dataset used for this analysis is **twitter_user_data.csv**, which contains 
   - **Profile image analysis** (default images are more likely to be bots or non-human).
 
 ### 7. **Performance Evaluation**
-- The model's performance is evaluated using **accuracy**, **confusion matrix**, and **classification report**.
+- The model's performance is evaluated using **accuracy**, **confusion matrix** and **classification report**.
 - Accuracy is calculated based on a subset of high-confidence profiles (those with a `gender:confidence` score above 0.9).
 - Metrics are generated to assess the classification quality and identify areas of improvement.
 
