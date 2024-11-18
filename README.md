@@ -51,6 +51,8 @@ To run this project, the following Python libraries are required:
 - **scikit-learn**: For machine learning models and vectorization (TF-IDF).
 - **vaderSentiment**: For sentiment analysis.
 
+Install the required libraries with:
+
 ```bash
 
 pip install -r requirements.txt
